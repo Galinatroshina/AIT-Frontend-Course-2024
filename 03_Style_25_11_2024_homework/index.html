@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical App</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form>
+    <h1>Patient Form</h1>
+    <div>
+        <label for="name">Patient Name:</label>
+        <input id="name" type="text" placeholder="Enter your name..." required/>
+    </div>
+</br>
+<div>
+    <label for="date">Date of Birth:</label>
+    <input id="birth" type="date" placeholder="Enter your date of birth..." required/>
+</div>
+</br>
+<div>
+    <label for="gender">Gender:</label>
+    <select id="birth" type="date" placeholder="Enter your date of birth..." required>
+        <option value="">Choose:</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="other">Other</option>
+    </select>
+</div>
+</br>
+<div>
+    <label for="Number">Contact Number:</label>
+    <input id="Number" type="number" placeholder="Enter your phone number" required/>
+</div>
+</br>
+<div>
+    <label for="E-Mail">Email Address:</label>
+    <input id="email" type="email" placeholder="Enter your E-Mail" required/>
+</div>
+</br>
+<div>
+    <label for="InsuranceYes">Insurance:</label>
+    <input id="InsuranceYes" type="radio" name="Insurance" value="Yes" required/>
+    <label for="InsuranceYes">Yes</label>
+    <input id="InsuranceNo" type="radio" name="Insurance" value="No" required/>
+    <label for="InsuranceNo">No</label>
+</div>
+</br>
+<div>
+    <label for="type">Type of Medical Examination:</label>
+    <select id="type" type="text" placeholder="Enter type of examination..." required>
+        <option value="">Choose:</option>
+        <option value="checkup">General Check-up</option>
+        <option value="specialTest">Special Test</option>
+        <option value="Consultation">Consultation</option>
+    </select>
+</div>
+</br>
+<div>
+    <label for="date">Appointment Date:</label>
+    <input id="Appointment" type="date" placeholder="" required/>
+</div>
+</br>
+<div>
+    <label for="notes">Comments/Notes:</label>
+    <textarea id="notes" placeholder="Enter your comments..." rows="10" cols="40"></textarea>
+</div>
+</br>
+<button>Submit</button>
+</form>   
+</body>
+</html>
