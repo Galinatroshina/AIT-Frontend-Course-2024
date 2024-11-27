@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Open+Sans:wght@600&family=Parkinsans:wght@300..800&family=Slabo+13px&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.header {
+    height: 400px;
+    background-image: url("./images/Coffee.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Neuton";
+    color: #f3f1f1;
+    font-size: 100px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.main {
+    position: relative;
+}
+
+.left, .right {
+    position: absolute;
+    width: 50%;
+    top: 15px;
+
+}
+
+.left {
+    left: 2px;
+}
+
+.right {
+    right: 2px;
+}

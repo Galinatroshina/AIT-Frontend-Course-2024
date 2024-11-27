@@ -21,7 +21,7 @@ body {
 
 h2 {
     font-size: 2em;
-    color: #e94d58;
+    color: #e83467;
     margin: 15px 0;
 }
 
@@ -52,20 +52,42 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid #e94d58;
+    border: 2px solid #e83467;
     transition: 0.2s ease-in-out;
 }
 
 button.yes-btn {
-    background: #e94d58;
+    background: #e83467;
     position: absolute;
     left: 0;
     right: 0; 
 }
 
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.3);
+    }
+    50% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.yes-btn:hover {
+    animation: heartbeat 0.8s ease-in-out;
+}
+
 button.no-btn {
     background: white;
-    color: #e94d58;
+    color: #e83467;
     position: absolute;
     top: 0;
     left: 170px;
