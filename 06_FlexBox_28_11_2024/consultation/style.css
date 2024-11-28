@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    position: relative;
+}
+
+.flex {
+    width: 150px;
+    height: 150px;
+    border: 1.5px solid;
+    
+}
+.container {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
