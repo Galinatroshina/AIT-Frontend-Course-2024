@@ -8,13 +8,15 @@ header h1 {
     color: #333;
 }
 
-body {
+main {
+    padding: 0px 30px;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 nav {
-    position: fixed;
+    display: flex;
+    flex-direction: column;
     top: 70px;
     left: 0;
     height: 100%;
