@@ -1,3 +1,40 @@
 a {
     color: rgb(0, 0, 0);
 }
+
+header h1 {
+    margin: 20px;
+    font-size:xx-large;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    height: 100%;
+    width: 200px; 
+    background-color: #f4f4f4;
+    padding: 20px;
+
+}
+
+.navigator a {
+    display: block; 
+    margin-bottom: 15px; 
+    color: #333; 
+    text-decoration: none; 
+    font-size: 16px; 
+    padding: 10px; 
+    
+}
+
+.navigator a:hover {
+    background-color: #ddd;
+    color: #000;
+}
