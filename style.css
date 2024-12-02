@@ -1,43 +1,106 @@
-a {
-    color: rgb(0, 0, 0);
-}
-
-header h1 {
-    margin: 20px;
-    font-size:xx-large;
-    color: #333;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', bold;
-}
-
-main {
-    padding: 0px 30px;
+/* ALL */
+body {
     margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-nav {
     display: flex;
     flex-direction: column;
-    top: 70px;
-    left: 0;
-    height: 100%;
-    width: 200px; 
-    background-color: #f4f4f4;
-    padding: 20px;
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', bold;
+  }
 
+  /* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: rgb(192, 235, 192);
+    color: white;
+    height: 80px;
+  }
+
+header h1 {
+    font-size: xx-large;
+    margin: 0;
+    color: rgb(42, 42, 42);
+}
+
+/* NAVI */
+
+.navigator {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
 }
 
 .navigator a {
-    display: block; 
-    margin-bottom: 15px; 
-    color: #333; 
-    text-decoration: none; 
-    font-size: 16px; 
-    padding: 10px; 
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
     
 }
 
 .navigator a:hover {
     background-color: #ddd;
     color: #000;
+}
+
+/* MAIN CONTENT */
+
+main {
+    flex: 1;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+
+    nav {
+        width: 100%; 
+    }
+
+    main {
+        margin-left: 0;
+    }
+}
+}
+
+@media (max-width: 430px) {
+    header h1 {
+        font-size: large;
+    }
+
+    .navigator a {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+a::before {
+    content:"";
+}
+
+a {
+    color: rgb(0, 0, 0);
 }
