@@ -1,0 +1,10 @@
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(117, 201, 142);
+    padding: 5px 10px;
+}
+#btn-create {
+    background-color: rgb(180, 121, 234);
+
+}
