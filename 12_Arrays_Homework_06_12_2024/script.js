@@ -48,7 +48,3 @@ for (let i = 0; i < arrNumbers.length; i++) {
     console.log('массив с квадратами', arrS)
 }
 
-
-
-
-
