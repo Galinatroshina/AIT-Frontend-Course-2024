@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #058934;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.weather-container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
